@@ -1,0 +1,25 @@
+The first data visualizations were static: graphs and charts existed as images on paper and did not change depending on the viewer’s actions. Today, we are accustomed to a different experience — interactive visualizations, where the user can interact with the data: zoom in, filter categories, get additional details by hovering over it. This radically changed the way we analyze data, making visualization not only a presentation tool, but also a means of exploration.
+
+One of the first researchers to systematize the approach to interactivity was Ben Shneiderman. In 1996, he formulated a principle that became known as the “visualization mantra”: “first overview, then filter, then detail on demand.” This logic reflects the natural path of data exploration. First, the viewer gets an overview to see the big picture, then filters or zooms to focus in on interesting parts, and finally gets detail on demand, such as exact values ​​or additional characteristics. This approach still underlies most analytical dashboards and exploration tools.
+
+Interactivity can be implemented in different ways. The simplest form is tooltips, which show additional information about a data point when you hover over it. This allows you to avoid cluttering the chart with labels, but still provide access to details. Another common tool is zooming, which helps you explore large data sets: we can zoom in on an area of ​​interest to see it in more detail, and then return to the general view. Filtering allows you to highlight subgroups of data, for example, showing only men or only values ​​for the last year, which makes comparisons more accurate.
+
+More complex systems use linked graphs. In them, selecting a category or point on one graph automatically highlights the corresponding elements on the others. This approach allows you to see the data from different angles and find relationships that would be invisible when analyzing a single graph.
+
+In fact, according to Tufte, there are 10 types of interactiveness:
+
+Single view
+Multiple viewpoints
+Change over time
+Selection (Details on demand)
+Navigation
+Linking
+Semantic zooming
+Adapting representations
+Filtering and Querying
+Focus + Context
+The advantage of interactive visualization is that the user becomes an active researcher. They ask questions of the data, test hypotheses, and build their own understanding. This is especially important in business and science, where decisions directly depend on the speed of analysis and the flexibility of the tools. Interactive dashboards in Power BI or Tableau, as well as Python libraries such as Plotly and Altair, allow you to create visualizations that change in real time and reflect user actions.
+
+However, interactivity requires caution. An excessive number of buttons, filters, and options confuses the viewer and interferes with perception. Overloaded dashboards turn research into a technical task, where attention is focused on the interface, not the data itself. A good interactive visualization always remains simple and understandable: a minimum of controls, clear logic of actions, and a smooth combination of an overview and details.
+
+Thus, interactivity and interaction are not a decorative function, but a way to turn data into a flexible research tool. They help combine overview and details, giving the user the opportunity to see the big picture and simultaneously study individual elements. But for visualization to fulfill its purpose, it is important to maintain a balance: interactivity should facilitate perception, not complicate it.
